@@ -8,4 +8,4 @@ COPY ./target/micro-servico-insereLivros.jar /app/micro-servico-insereLivros.jar
 
 EXPOSE 8383
 
-CMD java -jar /app/micro-servico-insereLivros.jar.jar
+CMD java -jar /app/micro-servico-insereLivros.jar
