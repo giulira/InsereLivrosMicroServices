@@ -70,6 +70,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>micro-servico-insereLivros</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
