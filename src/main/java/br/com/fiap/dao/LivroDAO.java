@@ -16,6 +16,7 @@ public class LivroDAO {
 	
 //	@Transactional
 	public void save(Livro livro) {
-		entityManager.persist(livro);
+		//entityManager.persist(livro);
+		System.out.println("Dados salvo com sucesso !!");
 	}	
 }
