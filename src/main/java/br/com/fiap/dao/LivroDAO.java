@@ -8,13 +8,13 @@ import org.springframework.stereotype.Component;
 
 import br.com.fiap.bean.Livro;
 
-@Component
+//@Component
 public class LivroDAO {
 	
-	@PersistenceContext	
+	//@PersistenceContext	
 	private EntityManager entityManager;
 	
-	@Transactional
+//	@Transactional
 	public void save(Livro livro) {
 		entityManager.persist(livro);
 	}	
